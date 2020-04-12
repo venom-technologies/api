@@ -1,0 +1,7 @@
+{
+    "mongoose" : {
+                      "uri" : "mongodb://localhost/venom"
+                },
+    "port" : 3000
+
+}
