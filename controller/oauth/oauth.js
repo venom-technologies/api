@@ -23,6 +23,6 @@ async function googleOauth() {
 }
 
 async function googleOauthCallback(){
-    passport.authenticate('google', { failureRedirect: '/login' }),
+    passport.authenticate('google', { failureRedirect: '/login' });
 };
 

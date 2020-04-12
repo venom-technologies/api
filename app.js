@@ -8,7 +8,7 @@ function startapp() {
 
     let app = express();
     require('./common/express')(app, config);
-    require('./common/middleware/pre-middleware').loadPreMiddleware(app)
+   // require('./common/middleware/pre-middleware').loadPreMiddleware(app)
     require('./controller/index').loadControllers(app);
     require('./common/middleware/post-middleware').loadPostMiddleware(app);
     app.listen(port = 3000, function () {
